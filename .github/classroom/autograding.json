@@ -8,7 +8,17 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 100
+      "points": 50
+    },
+    {
+      "name": "Bulbasaur Tests",
+      "setup": "",
+      "run": "mvn test -Dtest=BulbasaurTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 50
     }
   ]
 }
