@@ -13,7 +13,7 @@
     {
       "name": "Bulbasaur Tests",
       "setup": "",
-      "run": "mvn test -Dtest=BulbasaurTest",
+      "run": "mvn test -pl ex2 -Dtest=BulbasaurTest",
       "input": "",
       "output": "",
       "comparison": "included",
