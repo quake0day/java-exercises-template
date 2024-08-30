@@ -8,7 +8,7 @@ public class Ex1Test {
         long start = 81297;
         long step = 198;
         int count = 100;
-        long expectedSum = 9105450; // This is the correct sum for the given progression
+        long expectedSum = 9109800; // This is the correct sum for the given progression
 
         long result = Ex1.calculateGaussSum(start, step, count);
         assertEquals("The sum should be correct for the given progression", expectedSum, result);
